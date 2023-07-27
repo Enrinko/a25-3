@@ -48,7 +48,7 @@ class sdbh {
 	/**
 	 * Query function, throwing exceptions on errors
 	 * @param query - query string 
-	 * @return query result from mysqli query() function
+	 * @return mysqli_result query result from mysqli query() function
 	 * @throw sdbh_deadlock_exception in case of innodb deadlock
 	 * @throw sdbh_exception in case of other query errors
 	 */
